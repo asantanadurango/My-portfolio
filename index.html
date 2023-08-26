@@ -1,343 +1,423 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="shortcut icon" href="assets/img/favicon.svg" />
 
-   <link rel="stylesheet" href="assets/css/styles.css" />
-   <link rel="shortcut icon" href="assets/img/favicon.svg" />
+    <!-- =====BOX ICONS===== -->
 
-   <!-- =====BOX ICONS===== -->
-   <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
 
-   <title>SantanaDev</title>
-</head>
+    <title>SantanaDev</title>
+  </head>
 
-<body>
-   <!--===== HEADER =====-->
-   <header class="l-header">
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
       <nav class="nav bd-grid">
-         <div>
-            <a href="#" class="nav__logo">Santana</a>
-         </div>
+        <div>
+          <a href="#" class="nav__logo">Santana</a>
+        </div>
 
-         <div class="nav__menu" id="nav-menu">
-            <ul class="nav__list">
-               <li class="nav__item">
-                  <a href="#home" class="nav__link active">Inicio</a>
-               </li>
-               <li class="nav__item">
-                  <a href="#about" class="nav__link">Sobre mi</a>
-               </li>
-               <li class="nav__item">
-                  <a href="#skills" class="nav__link">Habilidades</a>
-               </li>
-               <li class="nav__item">
-                  <a href="#work" class="nav__link">Proyectos</a>
-               </li>
-               <li class="nav__item">
-                  <a href="#footer" class="nav__link">Contactame</a>
-               </li>
-            </ul>
-         </div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Inicio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Sobre mi</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Habilidades</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Proyectos</a>
+            </li>
+          </ul>
+        </div>
 
-         <div class="nav__toggle" id="nav-toggle">
-            <i class="bx bx-menu"></i>
-         </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
       </nav>
-   </header>
+    </header>
 
-   <main class="l-main">
+    <main class="l-main">
       <!--===== HOME =====-->
       <section class="home bd-grid" id="home">
-         <div class="home__data">
-            <h1 class="home__title">
-               Hola,<br />soy <span class="home__title-color">Santana</span><br />
-               Desarrollador Web
-            </h1>
+        <div class="home__data">
+          <h1 class="home__title">
+            Hola, <br />soy <span class="home__title-color">Santana</span><br />
+            Desarrollador
+            <span class="overflow__text"></span>
+            Web
+          </h1>
+        </div>
 
-            <a href="#" class="button">Contactame</a>
-         </div>
+        <div class="home__social">
+          <a
+            href="https://www.linkedin.com/in/andres-santana/"
+            target="_blank"
+            class="home__social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            href="https://api.whatsapp.com/send?phone=573017661397&text"
+            target="_blank"
+            class="home__social-icon"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
+          <a
+            href="https://github.com/asantanadurango"
+            target="_blank"
+            class="home__social-icon"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
 
-         <div class="home__social">
-            <a href="https://www.linkedin.com/in/andres-santana/" target="_blank" class="home__social-icon"><i class="bx bxl-linkedin"></i></a>
-            <a href="https://api.whatsapp.com/send?phone=573017661397&text" target="_blank" class="home__social-icon"><i class="bx bxl-whatsapp"></i></a>
-            <a href="https://github.com/asantanadurango" target="_blank" class="home__social-icon"><i class="bx bxl-github"></i></a>
-         </div>
-
-         <div class="home__img">
-            <img src="assets/img/imageAnimation.svg" alt="" />
-         </div>
+        <div class="home__img">
+          <img src="assets/img/imageAnimation.svg" alt="" />
+        </div>
       </section>
 
       <!--===== ABOUT =====-->
       <section class="about section" id="about">
-         <h2 class="section-title">Sobre mi</h2>
+        <h2 class="section-title">Sobre mi</h2>
 
-         <div class="about__container bd-grid">
-            <div class="about__img">
-               <img src="assets/img/imageAnimation.svg" alt="" />
-            </div>
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="assets/img/imageAnimation.svg" alt="" />
+          </div>
 
-            <div>
-               <h2 class="about__subtitle">Soy Santana</h2>
-               <p class="about__text">
-                  En el 2017 empecé a estudiar y aprender por mi cuenta las tecnologías y herramientas necesarias para ser un progador de valor en este campo que me ha permitido desenvolverme felizmente como profesional, aportando no solo mis ideas y conocimientos sino ademas mi pasion y mi compromiso con esta comunidad de pensadores y entuciastas de las nuevas tecnologías de la que me siento orgulloso pertencer.
-               </p>
-            </div>
-         </div>
+          <div>
+            <p class="about__text">
+              En el 2017 empecé a estudiar y aprender por mi cuenta las
+              tecnologías y herramientas necesarias para ser un programador de
+              valor en esta área, esto me permitio desenvolverme felizmente como
+              profesional, aportando no solo mis conocimientos sino ademas mi
+              pasion y mi compromiso con esta comunidad llena de curiosos y
+              entuciastas por el mundo tech.
+            </p>
+          </div>
+        </div>
       </section>
 
       <!--===== SKILLS =====-->
       <section class="section" id="skills">
-         <h2 class="section-title">Habilidades</h2>
+        <h2 class="section-title">Habilidades</h2>
 
-         <div class="skills__container bd-grid">
-            <div>
-               <h2 class="skills__subtitle">Habilidades Profesionales</h2>
-               <p class="skills__text">
-                  A lo largo de estos años ser una persona autodidacta y contar con el apoyo de colegas que ahora son amigos, me ha motivado a sumergirme en este ecosistema de tecnologías, herramientas y nuevas habilidades, entre las que destaco las siguientes ya que son en las que más me he desempeñado y sentido cómodo.
-               </p>
+        <div class="skills__container bd-grid">
+          <div>
+            <p class="skills__text">
+              A lo largo de estos años ser una persona autodidacta y contar con
+              el apoyo de colegas que ahora son amigos, me ha motivado a
+              sumergirme en este mundo de tecnologías, herramientas y nuevas
+              habilidades, entre las que destaco las siguientes.
+            </p>
 
-               <div class="skills__data">
-                  <div>
-                     <i class="bx bxl-html5 skills__icon"></i>
-                     <span class="skills__name">HTML5</span>
-                  </div>
-                  <div class="skills__bar"></div>
-               </div>
-
-               <div class="skills__data">
-                  <div>
-                     <i class="bx bxl-css3 skills__icon"></i>
-                     <span class="skills__name">CSS3</span>
-                  </div>
-                  <div class="skills__bar"></div>
-               </div>
-
-               <div class="skills__data">
-                  <div>
-                     <i class="bx bxl-sass skills__icon"></i>
-                     <span class="skills__name">SASS</span>
-                  </div>
-                  <div class="skills__bar"></div>
-               </div>
-
-               <div class="skills__data">
-                  <div>
-                     <i class="bx bxl-bootstrap skills__icon"></i>
-                     <span class="skills__name">BOOTSTRAP</span>
-                  </div>
-                  <div class="skills__bar"></div>
-               </div>
-
-               <div class="skills__data">
-                  <div>
-                     <i class="bx bxl-javascript skills__icon"></i>
-                     <span class="skills__name">JAVASCRIPT</span>
-                  </div>
-                  <div class="skills__bar"></div>
-               </div>
-
-               <div class="skills__data">
-                  <div>
-                     <i class="bx bxl-react skills__icon"></i>
-                     <span class="skills__name">REACTJS</span>
-                  </div>
-                  <div class="skills__bar"></div>
-               </div>
-
-               <div class="skills__data">
-                  <div>
-                     <i class="bx bxl-git skills__icon"></i>
-                     <span class="skills__name">GIT</span>
-                  </div>
-                  <div class="skills__bar"></div>
-               </div>
-
-               <div class="skills__data">
-                  <div>
-                     <i class="bx bxl-nodejs skills__icon"></i>
-                     <span class="skills__name">NODEJS</span>
-                  </div>
-                  <div class="skills__bar"></div>
-               </div>
-
-               <div class="skills__data">
-                  <div>
-                     <i class="bx bxl-magento skills__icon rotate"></i>
-                     <span class="skills__name">EXPRESS</span>
-                  </div>
-                  <div class="skills__bar"></div>
-
-               </div>
+            <div class="skills__data">
+              <div>
+                <i class="bx bxl-typescript skills__icon"></i>
+                <span class="skills__name">TYPESCRIPT</span>
+              </div>
+              <div class="skills__bar"></div>
             </div>
 
-            <div>
-               <img src="assets/img/work3.jpg" alt="" class="skills__img" />
+            <div class="skills__data">
+              <div>
+                <i class="bx bxl-javascript skills__icon"></i>
+                <span class="skills__name">JAVASCRIPT</span>
+              </div>
+              <div class="skills__bar"></div>
             </div>
-         </div>
+
+            <div class="skills__data">
+              <div>
+                <i>
+                  <img
+                    width="25"
+                    height="25"
+                    style="
+                      background-color: lime;
+                      display: inline;
+                      margin-left: 0.3rem;
+                      margin-right: 1.2rem;
+                    "
+                    src="./assets/img/next-js-icon-seeklogo.com.svg"
+                    alt="" />
+                </i>
+                <span class="skills__name">NEXT.JS</span>
+              </div>
+              <div class="skills__bar"></div>
+            </div>
+
+            <div class="skills__data">
+              <div>
+                <i class="bx bxl-react skills__icon"></i>
+                <span class="skills__name">REACTJS</span>
+              </div>
+              <div class="skills__bar"></div>
+            </div>
+
+            <div class="skills__data">
+              <div>
+                <i class="bx bxl-nodejs skills__icon"></i>
+                <span class="skills__name">NODEJS</span>
+              </div>
+              <div class="skills__bar"></div>
+            </div>
+
+            <div class="skills__data">
+              <div>
+                <i class="bx bxl-magento skills__icon rotate"></i>
+                <span class="skills__name">EXPRESS</span>
+              </div>
+              <div class="skills__bar"></div>
+            </div>
+
+            <div class="skills__data">
+              <div>
+                <i class="bx bxl-tailwind-css skills__icon"></i>
+                <span class="skills__name">TAILWIND</span>
+              </div>
+              <div class="skills__bar"></div>
+            </div>
+
+            <div class="skills__data">
+              <div>
+                <i class="bx bxl-bootstrap skills__icon"></i>
+                <span class="skills__name">BOOTSTRAP</span>
+              </div>
+              <div class="skills__bar"></div>
+            </div>
+          </div>
+          <div>
+            <img src="assets/img/work3.jpg" alt="" class="skills__img" />
+          </div>
+        </div>
       </section>
-
 
       <!--===== WORK =====-->
       <section class="section" id="work">
-         <h2 class="section-title">Proyectos</h2>
+        <h2 class="section-title">Proyectos</h2>
 
-         <div class="work__container bd-grid">
-            <div class="work__card">
-               <div class="work__header">
-                  <div class="work__header--content">
-                     <img src="./assets/img/img-hoteles.png" alt="">
-                     <h3>Hoteles</h3>
-                  </div>
-               </div>
-               <div class="work__body">
-                  <div class="work__body--content">
-                     <p>
-                     <h4>Hecho con :</h4>
-                     <ul>
-                        <li>CDN</li>
-                        <li>ReactJs</li>
-                        <li>Css</li>
-                     </ul>
-                     </p>
-                     <a href="https://asantanadurango.github.io/hoteles/" target="_blank"><i class='bx bx-world'></i> visitar web</a>
-                     <a href="https://github.com/asantanadurango/hoteles" target="_blank"><i class="bx bxl-github"></i> Ver código</a>
-                  </div>
-               </div>
-            </div>
-            <div class="work__card">
-               <div class="work__header">
-                  <div class="work__header--content">
-                     <img src="./assets/img/img-petsWebBootstrap.png" alt="">
-                     <h3>PetsWebBootstrap</h3>
-                  </div>
-               </div>
-               <div class="work__body">
-                  <div class="work__body--content">
-                     <p>
-                     <h4>Hecho con :</h4>
-                     <ul>
-                        <li>BOOTSTRAP</li>
-                        <li>CDN</li>
-                        <li>Css</li>
-                     </ul>
-                     </p>
-                     <a href="https://asantanadurango.github.io/PetsWebBootstrap/" target="_blank"><i class='bx bx-world'></i> visitar web</a>
-                     <a href="https://github.com/asantanadurango/PetsWebBootstrap" target="_blank"><i class="bx bxl-github"></i> Ver código</a>
-                  </div>
-               </div>
-            </div>
-            <div class="work__card">
-               <div class="work__header">
-                  <div class="work__header--content">
-                     <img src="./assets/img/img-pokeApi.png" alt="">
-                     <h3>PokeApi</h3>
-                  </div>
-               </div>
-               <div class="work__body">
-                  <div class="work__body--content">
-                     <p>
-                     <h4>Hecho con :</h4>
-                     <ul>
-                        <li>ReactJs</li>
-                        <li>Fetch Api</li>
-                        <li>Styled Components</li>
-                     </ul>
-                     </p>
-                     <a href="https://asantanadurango.github.io/pokeApi/" target="_blank"><i class='bx bx-world'></i> visitar web</a>
-                     <a href="https://github.com/asantanadurango/pokeApi" target="_blank"><i class="bx bxl-github"></i> Ver código</a>
-                  </div>
-               </div>
-            </div>
+        <div class="work__container bd-grid">
 
-            <div class="work__card">
-               <div class="work__header">
-                  <div class="work__header--content">
-                     <img src="./assets/img/img-hospital.png" alt="">
-                     <h3>Hospital</h3>
-                  </div>
-               </div>
-               <div class="work__body">
-                  <div class="work__body--content">
-                     <p>
-                     <h4>Hecho con :</h4>
-                     <ul>
-                        <li>ReactJs</li>
-                        <li>Redux</li>
-                        <li>Css</li>
-                     </ul>
-                     </p>
-                     <a href="https://asantanadurango.github.io/hospital/" target="_blank"><i class='bx bx-world'></i> visitar web</a>
-                     <a href="https://github.com/asantanadurango/hospital" target="_blank"><i class="bx bxl-github"></i> Ver código</a>
-                  </div>
+          <div class="work__card">
+            <div class="work__header">
+              <div class="work__header--content">
+                <img src="./assets/img/card-ryp.png" alt="" />
+                <h3>WebRyP</h3>
+              </div>
+            </div>
+            <div class="work__body">
+              <div class="work__body--content">
+                <article>
+                  <h4>Hecho con :</h4>
+                  <ul>
+                    <li>ReactJs</li>
+                    <li>React-Router</li>
+                    <li>Scss</li>
+                  </ul>
+                </article>
+                <a
+                  href="https://asantanadurango.github.io/web-ryp/"
+                  target="_blank"
+                  ><i class="bx bx-world"></i> visitar web</a
+                >
+                <a
+                  href="https://github.com/asantanadurango/web-ryp"
+                  target="_blank"
+                  ><i class="bx bxl-github"></i> Ver código</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="work__card">
+            <div class="work__header">
+              <div class="work__header--content">
+                <img
+                  src="./assets/img/card-pokemon.png"
+                  alt="Pokemon img-card" />
+                <h3>PokeApi</h3>
+              </div>
+            </div>
+            <div class="work__body">
+              <div class="work__body--content">
+                <article>
+                  <h4>Hecho con :</h4>
+                  <ul>
+                    <li>ReactJs</li>
+                    <li>Fetch Api</li>
+                    <li>NextUI</li>
+                    <li>Tailwind</li>
+                  </ul>
+                </article>
+                <a
+                  href="https://asantanadurango.github.io/pokeApi/"
+                  target="_blank"
+                  ><i class="bx bx-world"></i> visitar web</a
+                >
+                <a
+                  href="https://github.com/asantanadurango/pokeApi"
+                  target="_blank"
+                  ><i class="bx bxl-github"></i> Ver código</a
+                >
+              </div>
+            </div>
+          </div>          
+          <div class="work__card">
+            <div class="work__header">
+              <div class="work__header--content">
+                <img
+                  src="./assets/img/card-marketplace.png"
+                  alt="Marketplace img-card" />
+                <h3>MarketPlace</h3>
+              </div>
+            </div>
+            <div class="work__body">
+              <div class="work__body--content">
+                <article>
+                  <h4>Hecho con :</h4>
+                  <ul>
+                    <li>ReactJs</li>
+                    <li>Redux</li>
+                    <li>Css</li>
+                  </ul>
+                </article>
+                <a
+                  href="https://asantanadurango.github.io/marketplace/"
+                  target="_blank"
+                  ><i class="bx bx-world"></i> visitar web</a
+                >
+                <a
+                  href="https://github.com/asantanadurango/marketplace"
+                  target="_blank"
+                  ><i class="bx bxl-github"></i> Ver código</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="work__card">
+            <div class="work__header">
+               <div class="work__header--content">
+                  <img src="./assets/img/card-hoteles.png" alt="">
+                  <h3>Hoteles</h3>
                </div>
             </div>
-            <div class="work__card">
-               <div class="work__header">
-                  <div class="work__header--content">
-                     <img src="./assets/img/img-compuMuebles.png" alt="">
-                     <h3>CompuMuebles</h3>
-                  </div>
-               </div>
-               <div class="work__body">
-                  <div class="work__body--content">
-                     <p>
-                     <h4>Hecho con :</h4>
-                     <ul>
-                        <li>Bootstrap</li>
-                        <li>Css</li>
-                     </ul>
-                     </p>
-                     <a href="https://asantanadurango.github.io/compuMuebles/" target="_blank"><i class='bx bx-world'></i> visitar web</a>
-                     <a href="https://github.com/asantanadurango/compuMuebles" target="_blank"><i class="bx bxl-github"></i> Ver código</a>
-                  </div>
+            <div class="work__body">
+               <div class="work__body--content">
+                  <p>
+                  <h4>Hecho con :</h4>
+                  <ul>
+                     <li>CDN</li>
+                     <li>ReactJs</li>
+                     <li>Css</li>
+                  </ul>
+                  </p>
+                  <a href="https://asantanadurango.github.io/hoteles/" target="_blank"><i class='bx bx-world'></i> visitar web</a>
+                  <a href="https://github.com/asantanadurango/hoteles" target="_blank"><i class="bx bxl-github"></i> Ver código</a>
                </div>
             </div>
-            <div class="work__card">
-               <div class="work__header">
-                  <div class="work__header--content">
-                     <img src="./assets/img/img-webRyP.png" alt="">
-                     <h3>WebRyP</h3>
-                  </div>
-               </div>
-               <div class="work__body">
-                  <div class="work__body--content">
-                     <p>
-                     <h4>Hecho con :</h4>
-                     <ul>
-                        <li>ReactJs</li>
-                        <li>React-Router</li>
-                        <li>Sass</li>
-                     </ul>
-                     </p>
-                     <a href="https://asantanadurango.github.io/web-ryp/" target="_blank"><i class='bx bx-world'></i> visitar web</a>
-                     <a href="https://github.com/asantanadurango/web-ryp" target="_blank"><i class="bx bxl-github"></i> Ver código</a>
-                  </div>
-               </div>
             </div>
-
+          <div class="work__card">
+            <div class="work__header">
+              <div class="work__header--content">
+                <img src="./assets/img/card-compumuebles.png" alt="" />
+                <h3>CompuMuebles</h3>
+              </div>
+            </div>
+            <div class="work__body">
+              <div class="work__body--content">
+                <article>
+                  <h4>Hecho con :</h4>
+                  <ul>
+                    <li>Bootstrap</li>
+                    <li>Css</li>
+                  </ul>
+                </article>
+                <a
+                  href="https://asantanadurango.github.io/compuMuebles/"
+                  target="_blank"
+                  ><i class="bx bx-world"></i> visitar web</a
+                >
+                <a
+                  href="https://github.com/asantanadurango/compuMuebles"
+                  target="_blank"
+                  ><i class="bx bxl-github"></i> Ver código</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="work__card">
+            <div class="work__header">
+              <div class="work__header--content">
+                <img src="./assets/img/card-randomuser.png" alt="" />
+                <h3>Randomuser</h3>
+              </div>
+            </div>
+            <div class="work__body">
+              <div class="work__body--content">
+                <article>
+                  <h4>Hecho con :</h4>
+                  <ul>
+                    <li>Next.js</li>
+                    <li>Context</li>
+                    <li>Hooks</li>
+                    <li>Tailwind</li>
+                  </ul>
+                </article>
+                <a
+                  href="https://asantanadurango.github.io/next-randomuser/"
+                  target="_blank"
+                  ><i class="bx bx-world"></i> visitar web</a
+                >
+                <a
+                  href="https://github.com/asantanadurango/next-randomuser"
+                  target="_blank"
+                  ><i class="bx bxl-github"></i> Ver código</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
+    </main>
 
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <div class="footer__social">
+        <a
+          href="https://www.linkedin.com/in/andres-santana/"
+          target="_blank"
+          class="footer__icon"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a
+          href="https://api.whatsapp.com/send?phone=573017661397&text"
+          target="_blank"
+          class="footer__icon"
+          ><i class="bx bxl-whatsapp"></i>
+        </a>
+        <a
+          href="https://github.com/asantanadurango"
+          target="_blank"
+          class="footer__icon"
+          ><i class="bx bxl-github"></i
+        ></a>
+      </div>
+      <p class="footer__title">SantanaDev</p>
+    </footer>
 
-      <!--===== FOOTER =====-->
-      <footer class="footer" id="footer">
-         <div class="footer__social">
-            <a href="https://www.linkedin.com/in/andres-santana/" target="_blank" class="footer__icon"><i class="bx bxl-linkedin"></i></a>
-            <a href="https://api.whatsapp.com/send?phone=573017661397&text" target="_blank" class="footer__icon"><i class="bx bxl-whatsapp"></i> </a>
-            <a href="https://github.com/asantanadurango" target="_blank" class="footer__icon"><i class="bx bxl-github"></i></a>
-         </div>
-         <p class="footer__title">SantanaDev</p>
-         <p>Gracias por visitarme</p>
-      </footer>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-      <!--===== SCROLL REVEAL =====-->
-      <script src="https://unpkg.com/scrollreveal"></script>
-
-      <!--===== MAIN JS =====-->
-      <script src="assets/js/main.js"></script>
-</body>
-
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
